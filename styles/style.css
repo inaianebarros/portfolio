@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box; /*garante que a imagem nao saia da tela*/
+    /* height: 100vh; altura da nossa tela */
+    background-color:#FFFDEC;
+    /* color: #C4D9FF; */
+    color: black;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;    
+}
+
+.cabecalho__menu__links{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.cabecalho__menu__links:hover{
+    color: #FFCFCF;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8% 20%; 
+}
+
+.apresentacao__conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 615px;
+    gap: 40px;
+}
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family:"Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.apresentacao__conteudo__resumo{
+    font-size: 24px;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.titulo-destaque{
+    color:#FFCFCF;
+    font-weight: 400;
+}
+
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 32px;
+    align-items: center;
+    
+}
+
+.apresentacao__subtitulo{
+    font-family:"Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao__botoes{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px; 
+    border:  2px solid #FFCFCF;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 600; /*define o peso da fonte, existem tambem bold e normal*/
+    color: #FFCFCF;
+}
+
+.apresentacao__botoes:hover{
+    width: 420px;
+}
+
+.rodape{
+    margin-left: 1%;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+

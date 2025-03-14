@@ -5,20 +5,18 @@
     <!--metainformcao-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio de Inaiane</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header>
-      <!--
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Servicos</a></li>
-                <li><a href="#">Contatos</a></li>
-            </ul>
-        </nav>
-           -->
+    <!--tag semantica-->
+    <header class="cabecalho">
+      <!--tag semantica-->
+      <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__links" href="#">Home</a>
+        <a class="cabecalho__menu__links" href="#">Sobre</a>
+        <a class="cabecalho__menu__links" href="#">Servicos</a>
+        <a class="cabecalho__menu__links" href="#">Contatos</a>
+      </nav>
     </header>
     <!--tag semantica-->
     <main class="apresentacao">
@@ -27,33 +25,52 @@
           Eleve seu negócio digital a outro nível
           <strong class="titulo-destaque">um Front-end de qualidade!</strong>
         </h1>
-        <p class="apresentacao__conteudo__sobre">
+        <p class="apresentacao__conteudo__resumo">
           Olá! Sou Inaiane, desenvolvedora Front-end com especialidade em React,
           HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática
           boas ideias. Vamos conversar?
         </p>
         <div class="apresentacao__links">
+          <h2 class="apresentacao__subtitulo">Acesse minhas redes:</h2>
           <a
             class="apresentacao__botoes"
             href="https://www.instagram.com/naybrros/"
-            >Instagram</a
           >
+            <img
+              src="assets/instagram.png"
+              href="Instagram icons created by Freepik - Flaticon"
+            />
+            Instagram
+          </a>
           <a
             class="apresentacao__botoes"
             href="https://github.com/InaianeBarros"
-            >Github</a
           >
+            <img
+              src="assets/github.png"
+              href="Cat icons created by Dave Gandy - Flaticon</a>"
+            />
+            Github
+          </a>
+          <a
+            class="apresentacao__botoes"
+            href="linkedin.com/in/inaiane-m-barros"
+          >
+            <img
+              src="assets/linkedin.png"
+              href="Linkedin icons created by fauzin idea - Flaticon"
+            />
+            Linkedin
+          </a>
         </div>
       </section>
-      <img src="fotodeperfil.jpeg" alt="Foto de Perfil da Inaiane" />
+      <img src="assets/fotodeperfil.jpeg" alt="Foto de Perfil da Inaiane" />
     </main>
     <!--tag semantica-->
     <footer>
-      <!--
-        <div class="rodape">
-            <p>&copy; 2025 Meu Site. Todos os direitos reservados</p>
-        </div>
-        -->
+      <div class="rodape">
+        <p>&copy; 2025 Barros, Inaiane. Todos os direitos reservados.</p>
+      </div>
     </footer>
     <!--tag semantica-->
   </body>
